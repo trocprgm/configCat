@@ -12,6 +12,8 @@ linux-firmware
 networkmanager 
 grub
 vim
+pavucontrol
+pamix (DO NOT USE DEV NCURSES, JUST USE NONE UNICODE VERSION)
 
 after install
 https://www.youtube.com/watch?v=CwLCcRY-xac
