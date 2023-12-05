@@ -4,3 +4,4 @@ cp /usr/src/dwm/config.h /home/adman/prgm/configCat/dwmConfig.h
 cp /usr/src/st/config.h /home/adman/prgm/configCat/stConfig.h
 cp /home/adman/.xinitrc /home/adman/prgm/configCat/xinitrc
 cp /home/adman/.bashrc /home/adman/prgm/configCat/bashrc
+cp /etc/vimrc /home/adman/prgm/configCat/vimrc
