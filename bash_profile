@@ -16,7 +16,7 @@
 # export NNN_BMS='c:~/.config;n:~/.config/nvim;z:~/.config/zsh;a:~/.config/awesome;i:~/img;s:~/dev;d:~/doc;l:~/.local/share'
 # export NNN_PLUG='f:browse_img_full;i:browse_img;o:open;s:fuzzy;c:_chmod 774 $nnn*;e:exec'
 #enviromental variables have been mostly depricated
-
+export NNN_BMS="a:$HOME/Amy;p:/home/adman/prgm;d:$HOME/Downloads/;s:$HOME/School;r:/"
 export NNN_OPTS="A"
 #append any option to make it a default
 #option A disables annoying autoopen thingy
