@@ -20,6 +20,8 @@
 export NNN_OPTS="A"
 #append any option to make it a default
 #option A disables annoying autoopen thingy
+#.bash_profile changes do not take effect until full restart, restarting xserver will not do it
+#-trocprgm
 
 # Created by `pipx` on 2023-11-23 02:48:52
 export PATH="$PATH:/home/adman/.local/bin"
