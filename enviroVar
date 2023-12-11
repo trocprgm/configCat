@@ -1,0 +1,8 @@
+#
+# This file is parsed by pam_env module
+#
+# Syntax: simple "KEY=VAL" pairs on separate lines
+#
+export NNN_BMS="A:/home/adman/Amy;p:/home/adman/prgm;d:/home/adman/Downloads/;s:/home/adman/School;r:/;S:/usr/src;D:/run/media/adman/"
+NNN_OPTS='A'
+EDITOR=vim
