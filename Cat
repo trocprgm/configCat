@@ -1,7 +1,5 @@
 #!/bin/bash
 
-cp /usr/src/dwm/config.h /home/adman/prgm/configCat/dwmConfig.h
-cp /usr/src/st/config.h /home/adman/prgm/configCat/stConfig.h
 cp /home/adman/.xinitrc /home/adman/prgm/configCat/xinitrc
 cp /etc/vimrc /home/adman/prgm/configCat/vimrc
 #basic vim settings kept in /etc/ for root use
@@ -11,7 +9,7 @@ cp /home/adman/.bash_profile /home/adman/prgm/configCat/bash_profile
 cp /etc/environment /home/adman/prgm/configCat/enviroVar
 #/etc/enviroment is used so that NNN will be configured when using as root
 cp /home/adman/.config/feh/keys /home/adman/prgm/configCat/fehKeys
-cp /home/adman/.apvlvrc /home/adman/prgm/configCat/apvlvrc
+cp /home/adman/.config/apvlv/apvlvrc /home/adman/prgm/configCat/apvlvrc
 cp /usr/share/applications/vim.desktop /home/adman/prgm/configCat/vimmy.desktop
 
 

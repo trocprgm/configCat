@@ -1,3 +1,12 @@
+set nocompatible
+
+set rtp+=/usr/share/vim/vimfiles/plugin/Vundle.vim
+call vundle#begin()
+Plugin 'VundleVim/Vundle.vim' 
+Plugin 'junegunn/fzf'
+Plugin 'junegunn/fzf.vim'
+call vundle#end()
+filetype plugin indent on
 " All system-wide defaults are set in $VIMRUNTIME/archlinux.vim (usually just
 " /usr/share/vim/vimfiles/archlinux.vim) and sourced by the call to :runtime
 " you can find below.  If you wish to change any of those settings, you should
@@ -18,10 +27,14 @@ runtime! archlinux.vim
 "let skip_defaults_vim=1
 set clipboard=unnamedplus
 filetype on
-set number
+" Normal line numbering
+"set number
+" Relative Linenumbering
+set relativenumber
 set showmode
 set shiftwidth=4
 set tabstop=4
 set expandtab
 set showmatch
+set hlsearch
 colo slate
